@@ -61,6 +61,8 @@ rules:
   # 给SB微信用
   - PROCESS-NAME,Weixin.exe,DIRECT
   - PROCESS-NAME,WeChatAppEx.exe,DIRECT
+
+  - DOMAIN-KEYWORD,test.com,REJECT
   
   - DOMAIN-KEYWORD,ipfs,DIRECT
   - DOMAIN,www.sjwx.la,DIRECT
